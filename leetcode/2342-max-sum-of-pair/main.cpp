@@ -97,16 +97,16 @@ public:
  * runtime: 30ms, beats 49.85%
  * memory: 63.90MB, beats 75.53%
  */
- template<typename K, typename V>
- class InitializedMap : public map<K, V> {
- private:
-     V default_value;
- public:
-     InitializedMap<K, V>(V default_value) : default_value(default_value) { }
-     V& operator[](const K& key) {
-         return map<K, V>::try_emplace(key, default_value).first->second;
-     }
- };
+template<typename K, typename V>
+class InitializedMap : public map<K, V> {
+private:
+    V default_value;
+public:
+    InitializedMap<K, V>(V default_value) : default_value(default_value) { }
+    V& operator[](const K& key) {
+        return map<K, V>::try_emplace(key, default_value).first->second;
+    }
+};
 
 class Solution2 {
 private:
@@ -165,7 +165,7 @@ public:
         int result = -1;
         for (auto& match : match_holder) {
             if (match.second.second != 0) {
-                result = result < (match.second.first + match.second.second) ? match.second.second + match.second.first : result;    
+                result = result < (match.second.first + match.second.second) ? match.second.second + match.second.first : result;
             } 
         }
         return result;

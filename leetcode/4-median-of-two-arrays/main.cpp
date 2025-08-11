@@ -86,9 +86,9 @@ public:
 
 /**
  * SOLUTION 2:
- * Starting from C++11 it's using RVO (Return Value Optimization), it ensures that returnde vector
+ * Starting from C++11 it's using RVO (Return Value Optimization), it ensures that returned vector
  * resources will be moved to the result variable by default. So there is no need to move it manually,
- * ot declare pointer to the resources allocated in memory heap.
+ * or declare pointer to the resources allocated in memory heap.
  * results:
  * runtime: 0ms, beats 100.00%
  * memory: 96.18MB, beats 11.12%

@@ -65,7 +65,7 @@ public:
         r[0] += c;
         r[1] += c;
         c = 0;
-        return r;    
+        return r;
     }
 };
 

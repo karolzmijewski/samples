@@ -285,9 +285,9 @@ public:
             // it can be higher on later iterations.
             // Determine the longest palindrome starting at Center-Radius and
             // going to Center+Radius
-            while ((center - (radius + 1)) >= 0 && 
-                   (center + (radius + 1)) < es_length &&
-                   es[center - (radius + 1)] == es[center + (radius + 1)]) {
+            while ((center - (radius + 1)) >= 0 &&
+                    (center + (radius + 1)) < es_length &&
+                    es[center - (radius + 1)] == es[center + (radius + 1)]) {
                 result = es[center - (radius + 1)] + result + es[center + (radius + 1)];
                 ++radius;
             }
