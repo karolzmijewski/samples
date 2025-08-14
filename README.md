@@ -16,3 +16,4 @@ This repository includes a collection of design patterns, solution examples, and
 | 8   | [string to integer conversion](./leetcode/8-string-to-int/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 | 9   | [palindromic number](./leetcode/9-palindrome-number/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 | 10  | [regexp match](./leetcode/10-regexp-match/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| 11  | [container with most water](./leetcode/11-container-with-most-water/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
