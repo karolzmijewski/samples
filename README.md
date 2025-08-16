@@ -21,3 +21,4 @@ This repository includes a collection of design patterns, solution examples, and
 | 13  | [roman to int](./leetcode/13-roman-to-integer/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 | 14  | [longest common prefix](./leetcode/14-longest-common-prefix/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 | 15  | [3sum](./leetcode/15-3sum/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| 16  | [3sum closest](./leetcode/16-3sum-closest/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
