@@ -1,5 +1,5 @@
 # PROBLEM
-# Find shortest path for the knight move from start to end
+# Find shortest path of knight's moves from given "start" field to defined "end" field
 
 def create_graph():
     moves_graph = { }

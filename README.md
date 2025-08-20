@@ -24,3 +24,9 @@ This repository includes a collection of design patterns, solution examples, and
 | 16  | [3sum closest](./leetcode/16-3sum-closest/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 | 133 | [clone graph](./leetcode/133-clone-graph/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 | 207 | [course schedule](./leetcode/207-course-schedule/README.md) |  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+
+## Other
+
+| #   | Problem | | |
+|-----|---------|-----|--------|
+| 1   | [shortest path for knight move](./other/shortest-path-for-knight-move.py) | | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
