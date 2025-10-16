@@ -32,6 +32,12 @@ This repository includes a collection of design patterns, solution examples, and
 | 1   | [shortest path for knight move](./other/shortest-path-for-knight-move.py) | | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
 
 
-## Complex
+## Experiments
 
-- [cpyth](./complex/cpyth): C code wrapper for Python
+### C
+- [cpyth](./experiments/lang_c/cpyth): C code wrapper for Python
+- [rest_client](./experiments/lang_c/rest_client): sample REST client utilizing CURL library
+
+### Python
+- [bdist](./experiments/lang_py/bdist_pure_pkg_schema): bdist pkg content manipulation with setup.py
+- [rest_client](./experiments/lang_py/rest_client): sample REST client in Python (very simple)
